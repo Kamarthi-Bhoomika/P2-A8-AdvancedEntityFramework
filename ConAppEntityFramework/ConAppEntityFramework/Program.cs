@@ -19,37 +19,37 @@ namespace ConAppEntityFramework
                 {
                     case 1:
                         {
-                            Console.WriteLine("*****Create Employee*****");
+                            Console.WriteLine("\n*****Create Employee*****");
                             EmployeeClass.CreateEmployee();
-                            Console.WriteLine("*****Read Employee*****");
+                            Console.WriteLine("\n*****Read Employee*****");
                             EmployeeClass.ReadEmployee();
-                            Console.WriteLine("*****Update Employee*****");
+                            Console.WriteLine("\n*****Update Employee*****");
                             EmployeeClass.UpdateEmployee();
-                            Console.WriteLine("*****Delete Employee*****");
+                            Console.WriteLine("\n*****Delete Employee*****");
                             EmployeeClass.DeleteEmployee();
                             break;
                         }
                     case 2:
                         {
-                            Console.WriteLine("*****Create Product*****");
+                            Console.WriteLine("\n*****Create Product*****");
                             ProductClass.CreateProduct();
-                            Console.WriteLine("*****Read Product*****");
+                            Console.WriteLine("\n*****Read Product*****");
                             ProductClass.ReadProduct();
-                            Console.WriteLine("*****Update Product*****");
+                            Console.WriteLine("\n*****Update Product*****");
                             ProductClass.UpdateProduct();
-                            Console.WriteLine("*****Delete Product*****");
+                            Console.WriteLine("\n*****Delete Product*****");
                             ProductClass.DeleteProduct();
                             break;
                         }
                     case 3:
                         {
-                            Console.WriteLine("*****Create Orders*****");
+                            Console.WriteLine("\n*****Create Orders*****");
                             OrderClass.CreateOrders();
-                            Console.WriteLine("*****Read Orders*****");
+                            Console.WriteLine("\n*****Read Orders*****");
                             OrderClass.ReadOrders();
-                            Console.WriteLine("*****Update Orders*****");
+                            Console.WriteLine("\n*****Update Orders*****");
                             OrderClass.UpdateOrders();
-                            Console.WriteLine("*****Delete Orders*****");
+                            Console.WriteLine("\n*****Delete Orders*****");
                             OrderClass.DeleteOrders();
                             break;
                         }
