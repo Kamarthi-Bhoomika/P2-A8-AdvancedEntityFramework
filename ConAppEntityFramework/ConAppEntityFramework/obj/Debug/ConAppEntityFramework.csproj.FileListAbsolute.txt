@@ -1,0 +1,12 @@
+D:\Mphasis\.net\Phase2\Day8\Assignment8\ConAppEntityFramework\ConAppEntityFramework\bin\Debug\ConAppEntityFramework.exe.config
+D:\Mphasis\.net\Phase2\Day8\Assignment8\ConAppEntityFramework\ConAppEntityFramework\bin\Debug\ConAppEntityFramework.exe
+D:\Mphasis\.net\Phase2\Day8\Assignment8\ConAppEntityFramework\ConAppEntityFramework\bin\Debug\ConAppEntityFramework.pdb
+D:\Mphasis\.net\Phase2\Day8\Assignment8\ConAppEntityFramework\ConAppEntityFramework\bin\Debug\EntityFramework.dll
+D:\Mphasis\.net\Phase2\Day8\Assignment8\ConAppEntityFramework\ConAppEntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+D:\Mphasis\.net\Phase2\Day8\Assignment8\ConAppEntityFramework\ConAppEntityFramework\bin\Debug\EntityFramework.xml
+D:\Mphasis\.net\Phase2\Day8\Assignment8\ConAppEntityFramework\ConAppEntityFramework\bin\Debug\EntityFramework.SqlServer.xml
+D:\Mphasis\.net\Phase2\Day8\Assignment8\ConAppEntityFramework\ConAppEntityFramework\obj\Debug\ConAppEntityFramework.csproj.AssemblyReference.cache
+D:\Mphasis\.net\Phase2\Day8\Assignment8\ConAppEntityFramework\ConAppEntityFramework\obj\Debug\ConAppEntityFramework.csproj.CoreCompileInputs.cache
+D:\Mphasis\.net\Phase2\Day8\Assignment8\ConAppEntityFramework\ConAppEntityFramework\obj\Debug\ConAppEntityFramework.csproj.CopyComplete
+D:\Mphasis\.net\Phase2\Day8\Assignment8\ConAppEntityFramework\ConAppEntityFramework\obj\Debug\ConAppEntityFramework.exe
+D:\Mphasis\.net\Phase2\Day8\Assignment8\ConAppEntityFramework\ConAppEntityFramework\obj\Debug\ConAppEntityFramework.pdb
