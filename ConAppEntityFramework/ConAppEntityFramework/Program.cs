@@ -19,38 +19,119 @@ namespace ConAppEntityFramework
                 {
                     case 1:
                         {
-                            Console.WriteLine("\n*****Create Employee*****");
-                            EmployeeClass.CreateEmployee();
-                            Console.WriteLine("\n*****Read Employee*****");
-                            EmployeeClass.ReadEmployee();
-                            Console.WriteLine("\n*****Update Employee*****");
-                            EmployeeClass.UpdateEmployee();
-                            Console.WriteLine("\n*****Delete Employee*****");
-                            EmployeeClass.DeleteEmployee();
+                            Console.WriteLine("1.Create 2.Read 3.Update 4.Delete");
+                            Console.WriteLine("Choose option:");
+                            int op = int.Parse(Console.ReadLine());
+                            switch (op)
+                            {
+                                case 1:
+                                    {
+                                        Console.WriteLine("\n*****Create Employee*****");
+                                        EmployeeClass.CreateEmployee();
+                                        break;
+                                    }
+                                case 2:
+                                    {
+                                        Console.WriteLine("\n*****Read Employee*****");
+                                        EmployeeClass.ReadEmployee();
+                                        break;
+                                    }
+                                case 3:
+                                    {
+                                        Console.WriteLine("\n*****Update Employee*****");
+                                        EmployeeClass.UpdateEmployee();
+                                        break;
+                                    }
+                                case 4:
+                                    {
+                                        Console.WriteLine("\n*****Delete Employee*****");
+                                        EmployeeClass.DeleteEmployee();
+                                        break;
+                                    }
+                                default:
+                                    {
+                                        Console.WriteLine("invalid choice");
+                                        break;
+                                    }
+                            }
                             break;
                         }
                     case 2:
                         {
-                            Console.WriteLine("\n*****Create Product*****");
-                            ProductClass.CreateProduct();
-                            Console.WriteLine("\n*****Read Product*****");
-                            ProductClass.ReadProduct();
-                            Console.WriteLine("\n*****Update Product*****");
-                            ProductClass.UpdateProduct();
-                            Console.WriteLine("\n*****Delete Product*****");
-                            ProductClass.DeleteProduct();
+                            Console.WriteLine("1.Create 2.Read 3.Update 4.Delete");
+                            Console.WriteLine("Choose option:");
+                            int op = int.Parse(Console.ReadLine());
+                            switch (op)
+                            {
+                                case 1:
+                                    {
+                                        Console.WriteLine("\n*****Create Product*****");
+                                        ProductClass.CreateProduct();
+                                        break;
+                                    }
+                                case 2:
+                                    {
+                                        Console.WriteLine("\n*****Read Product*****");
+                                        ProductClass.ReadProduct();
+                                        break;
+                                    }
+                                case 3:
+                                    {
+                                        Console.WriteLine("\n*****Update Product*****");
+                                        ProductClass.UpdateProduct();
+                                        break;
+                                    }
+                                case 4:
+                                    {
+                                        Console.WriteLine("\n*****Delete Product*****");
+                                        ProductClass.DeleteProduct();
+                                        break;
+                                    }
+                                default:
+                                    {
+                                        Console.WriteLine("Invalid choice");
+                                        break;
+                                    }
+                            }
                             break;
                         }
                     case 3:
                         {
-                            Console.WriteLine("\n*****Create Orders*****");
-                            OrderClass.CreateOrders();
-                            Console.WriteLine("\n*****Read Orders*****");
-                            OrderClass.ReadOrders();
-                            Console.WriteLine("\n*****Update Orders*****");
-                            OrderClass.UpdateOrders();
-                            Console.WriteLine("\n*****Delete Orders*****");
-                            OrderClass.DeleteOrders();
+                            Console.WriteLine("1.Create 2.Read 3.Update 4.Delete");
+                            Console.WriteLine("Choose option:");
+                            int op = int.Parse(Console.ReadLine());
+                            switch (op)
+                            {
+                                case 1:
+                                    {
+                                        Console.WriteLine("\n*****Create Orders*****");
+                                        OrderClass.CreateOrders();
+                                        break;
+                                    }
+                                case 2:
+                                    {
+                                        Console.WriteLine("\n*****Read Orders*****");
+                                        OrderClass.ReadOrders();
+                                        break;
+                                    }
+                                case 3:
+                                    {
+                                        Console.WriteLine("\n*****Update Orders*****");
+                                        OrderClass.UpdateOrders();
+                                        break;
+                                    }
+                                case 4:
+                                    {
+                                        Console.WriteLine("\n*****Delete Orders*****");
+                                        OrderClass.DeleteOrders();
+                                        break;
+                                    }
+                                default:
+                                    {
+                                        Console.WriteLine("invalid choice");
+                                        break;
+                                    }
+                            }
                             break;
                         }
                     default:
