@@ -19,25 +19,37 @@ namespace ConAppEntityFramework
                 {
                     case 1:
                         {
+                            Console.WriteLine("*****Create Employee*****");
                             EmployeeClass.CreateEmployee();
+                            Console.WriteLine("*****Read Employee*****");
                             EmployeeClass.ReadEmployee();
+                            Console.WriteLine("*****Update Employee*****");
                             EmployeeClass.UpdateEmployee();
+                            Console.WriteLine("*****Delete Employee*****");
                             EmployeeClass.DeleteEmployee();
                             break;
                         }
                     case 2:
                         {
+                            Console.WriteLine("*****Create Product*****");
                             ProductClass.CreateProduct();
+                            Console.WriteLine("*****Read Product*****");
                             ProductClass.ReadProduct();
+                            Console.WriteLine("*****Update Product*****");
                             ProductClass.UpdateProduct();
+                            Console.WriteLine("*****Delete Product*****");
                             ProductClass.DeleteProduct();
                             break;
                         }
                     case 3:
                         {
+                            Console.WriteLine("*****Create Orders*****");
                             OrderClass.CreateOrders();
+                            Console.WriteLine("*****Read Orders*****");
                             OrderClass.ReadOrders();
+                            Console.WriteLine("*****Update Orders*****");
                             OrderClass.UpdateOrders();
+                            Console.WriteLine("*****Delete Orders*****");
                             OrderClass.DeleteOrders();
                             break;
                         }

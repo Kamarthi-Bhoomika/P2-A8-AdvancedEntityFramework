@@ -13,7 +13,7 @@ namespace ConAppEntityFramework
         {
             db = new AdvancedEDbEntities();
             Employee emp = new Employee();
-            Console.WriteLine("Enter ID: ");
+            Console.WriteLine("Enter Employee ID: ");
             emp.EmployeeId = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter First Name: ");
             emp.FirstName = Console.ReadLine();
